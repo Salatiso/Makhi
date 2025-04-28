@@ -1,0 +1,94 @@
+body {
+    background-color: #e0f7e0; /* Light green, inspired by sazi.life */
+    font-family: 'Roboto', Arial, sans-serif; /* Clean, like Salatiso.com */
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50; /* Vibrant green, like sazi.life */
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #388E3C; /* Darker green for contrast */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.emergency-btn {
+    background-color: #d32f2f; /* Red, per specification */
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+select, textarea, input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.chat-messages {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+@media (max-width: 320px) {
+    nav a, button, .emergency-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+    header {
+        padding: 10px;
+    }
+}
